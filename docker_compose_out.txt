@@ -1,0 +1,45 @@
+Attaching to spring-petclinic_mysql_1
+[36mmysql_1  |[0m 2022-03-07 20:14:39+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.37-1debian10 started.
+[36mmysql_1  |[0m 2022-03-07 20:14:39+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[36mmysql_1  |[0m 2022-03-07 20:14:39+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.37-1debian10 started.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.636568Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[36mmysql_1  |[0m 2022-03-07T20:14:39.637562Z 0 [Note] mysqld (mysqld 5.7.37) starting as process 1 ...
+[36mmysql_1  |[0m 2022-03-07T20:14:39.639616Z 0 [Note] InnoDB: PUNCH HOLE support available
+[36mmysql_1  |[0m 2022-03-07T20:14:39.639628Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mmysql_1  |[0m 2022-03-07T20:14:39.639631Z 0 [Note] InnoDB: Uses event mutexes
+[36mmysql_1  |[0m 2022-03-07T20:14:39.639633Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+[36mmysql_1  |[0m 2022-03-07T20:14:39.639636Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[36mmysql_1  |[0m 2022-03-07T20:14:39.639791Z 0 [Note] InnoDB: Number of pools: 1
+[36mmysql_1  |[0m 2022-03-07T20:14:39.639863Z 0 [Note] InnoDB: Using CPU crc32 instructions
+[36mmysql_1  |[0m 2022-03-07T20:14:39.640637Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+[36mmysql_1  |[0m 2022-03-07T20:14:39.645853Z 0 [Note] InnoDB: Completed initialization of buffer pool
+[36mmysql_1  |[0m 2022-03-07T20:14:39.647625Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+[36mmysql_1  |[0m 2022-03-07T20:14:39.659036Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.669355Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[36mmysql_1  |[0m 2022-03-07T20:14:39.669409Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+[36mmysql_1  |[0m 2022-03-07T20:14:39.688109Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.688611Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.688619Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.689072Z 0 [Note] InnoDB: Waiting for purge to start
+[36mmysql_1  |[0m 2022-03-07T20:14:39.739240Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 12660076
+[36mmysql_1  |[0m 2022-03-07T20:14:39.739460Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+[36mmysql_1  |[0m 2022-03-07T20:14:39.739550Z 0 [Note] Plugin 'FEDERATED' is disabled.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.743026Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220307 20:14:39
+[36mmysql_1  |[0m 2022-03-07T20:14:39.743769Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.743778Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.743782Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.743784Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.744325Z 0 [Warning] CA certificate ca.pem is self signed.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.744356Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.744800Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+[36mmysql_1  |[0m 2022-03-07T20:14:39.744833Z 0 [Note] IPv6 is available.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.744843Z 0 [Note]   - '::' resolves to '::';
+[36mmysql_1  |[0m 2022-03-07T20:14:39.744856Z 0 [Note] Server socket created on IP: '::'.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.748150Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mmysql_1  |[0m 2022-03-07T20:14:39.754733Z 0 [Note] Event Scheduler: Loaded 0 events
+[36mmysql_1  |[0m 2022-03-07T20:14:39.754911Z 0 [Note] mysqld: ready for connections.
+[36mmysql_1  |[0m Version: '5.7.37'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+[36mmysql_1  |[0m 2022-03-07T20:16:04.193976Z 2 [Warning] Hostname 'Gumstick' does not resolve to '172.18.0.1'.
+[36mmysql_1  |[0m 2022-03-07T20:16:04.193995Z 2 [Note] Hostname 'Gumstick' has the following IP addresses:
+[36mmysql_1  |[0m 2022-03-07T20:16:04.193997Z 2 [Note]  - 127.0.1.1
+Gracefully stopping... (press Ctrl+C again to force)

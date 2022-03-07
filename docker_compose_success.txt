@@ -1,0 +1,87 @@
+Attaching to spring-petclinic_mysql_1, spring-petclinic_webapp_1
+[36mmysql_1   |[0m 2022-03-07 20:25:33+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.37-1debian10 started.
+[36mmysql_1   |[0m 2022-03-07 20:25:34+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[36mmysql_1   |[0m 2022-03-07 20:25:34+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.37-1debian10 started.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.289620Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[36mmysql_1   |[0m 2022-03-07T20:25:34.290630Z 0 [Note] mysqld (mysqld 5.7.37) starting as process 1 ...
+[36mmysql_1   |[0m 2022-03-07T20:25:34.292728Z 0 [Note] InnoDB: PUNCH HOLE support available
+[36mmysql_1   |[0m 2022-03-07T20:25:34.292741Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mmysql_1   |[0m 2022-03-07T20:25:34.292745Z 0 [Note] InnoDB: Uses event mutexes
+[36mmysql_1   |[0m 2022-03-07T20:25:34.292747Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+[36mmysql_1   |[0m 2022-03-07T20:25:34.292750Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[36mmysql_1   |[0m 2022-03-07T20:25:34.292918Z 0 [Note] InnoDB: Number of pools: 1
+[36mmysql_1   |[0m 2022-03-07T20:25:34.292981Z 0 [Note] InnoDB: Using CPU crc32 instructions
+[36mmysql_1   |[0m 2022-03-07T20:25:34.293749Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+[36mmysql_1   |[0m 2022-03-07T20:25:34.299417Z 0 [Note] InnoDB: Completed initialization of buffer pool
+[36mmysql_1   |[0m 2022-03-07T20:25:34.300849Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+[36mmysql_1   |[0m 2022-03-07T20:25:34.312877Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.326680Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[36mmysql_1   |[0m 2022-03-07T20:25:34.326766Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+[36mmysql_1   |[0m 2022-03-07T20:25:34.346083Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.346644Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.346652Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.346951Z 0 [Note] InnoDB: Waiting for purge to start
+[36mmysql_1   |[0m 2022-03-07T20:25:34.397148Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 12770988
+[36mmysql_1   |[0m 2022-03-07T20:25:34.397377Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+[36mmysql_1   |[0m 2022-03-07T20:25:34.397600Z 0 [Note] Plugin 'FEDERATED' is disabled.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.398994Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220307 20:25:34
+[36mmysql_1   |[0m 2022-03-07T20:25:34.402069Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.402086Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.402089Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.402091Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.402574Z 0 [Warning] CA certificate ca.pem is self signed.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.402608Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.402977Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+[36mmysql_1   |[0m 2022-03-07T20:25:34.403009Z 0 [Note] IPv6 is available.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.403021Z 0 [Note]   - '::' resolves to '::';
+[36mmysql_1   |[0m 2022-03-07T20:25:34.403042Z 0 [Note] Server socket created on IP: '::'.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.406151Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mmysql_1   |[0m 2022-03-07T20:25:34.411907Z 0 [Note] Event Scheduler: Loaded 0 events
+[36mmysql_1   |[0m 2022-03-07T20:25:34.412093Z 0 [Note] mysqld: ready for connections.
+[36mmysql_1   |[0m Version: '5.7.37'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+[33mwebapp_1  |[0m 
+[33mwebapp_1  |[0m 
+[33mwebapp_1  |[0m               |\      _,,,--,,_
+[33mwebapp_1  |[0m              /,`.-'`'   ._  \-;;,_
+[33mwebapp_1  |[0m   _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+[33mwebapp_1  |[0m  |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+[33mwebapp_1  |[0m  |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+[33mwebapp_1  |[0m  |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+[33mwebapp_1  |[0m  |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+[33mwebapp_1  |[0m  |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+[33mwebapp_1  |[0m  |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+[33mwebapp_1  |[0m  ==================================================================/_/_/_/
+[33mwebapp_1  |[0m 
+[33mwebapp_1  |[0m :: Built with Spring Boot :: 2.2.4.RELEASE
+[33mwebapp_1  |[0m 
+[33mwebapp_1  |[0m 
+[33mwebapp_1  |[0m 2022-03-07 20:25:35.194  INFO 1 --- [           main] o.s.s.petclinic.PetClinicApplication     : Starting PetClinicApplication v2.2.0.BUILD-SNAPSHOT on 3659392d5dad with PID 1 (/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar started by root in /)
+[33mwebapp_1  |[0m 2022-03-07 20:25:35.197  INFO 1 --- [           main] o.s.s.petclinic.PetClinicApplication     : The following profiles are active: mysql
+[33mwebapp_1  |[0m 2022-03-07 20:25:36.099  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[33mwebapp_1  |[0m 2022-03-07 20:25:36.168  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 4 JPA repository interfaces.
+[33mwebapp_1  |[0m 2022-03-07 20:25:36.519  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[33mwebapp_1  |[0m 2022-03-07 20:25:36.889  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+[33mwebapp_1  |[0m 2022-03-07 20:25:36.901  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[33mwebapp_1  |[0m 2022-03-07 20:25:36.902  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+[33mwebapp_1  |[0m 2022-03-07 20:25:36.974  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[33mwebapp_1  |[0m 2022-03-07 20:25:36.974  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1734 ms
+[33mwebapp_1  |[0m 2022-03-07 20:25:37.401  INFO 1 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'vets' created in EhcacheManager.
+[33mwebapp_1  |[0m 2022-03-07 20:25:37.411  INFO 1 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+[33mwebapp_1  |[0m 2022-03-07 20:25:37.417  INFO 1 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+[33mwebapp_1  |[0m 2022-03-07 20:25:37.489  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[33mwebapp_1  |[0m 2022-03-07 20:25:37.891  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+[33mwebapp_1  |[0m 2022-03-07 20:25:38.143  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+[33mwebapp_1  |[0m 2022-03-07 20:25:38.221  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+[33mwebapp_1  |[0m 2022-03-07 20:25:38.366  INFO 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[33mwebapp_1  |[0m 2022-03-07 20:25:38.501  INFO 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[33mwebapp_1  |[0m 2022-03-07 20:25:39.381  INFO 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[33mwebapp_1  |[0m 2022-03-07 20:25:39.387  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[33mwebapp_1  |[0m 2022-03-07 20:25:39.896  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[33mwebapp_1  |[0m 2022-03-07 20:25:40.013  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+[33mwebapp_1  |[0m 2022-03-07 20:25:40.797  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/manage'
+[33mwebapp_1  |[0m 2022-03-07 20:25:40.850  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+[33mwebapp_1  |[0m 2022-03-07 20:25:40.851  INFO 1 --- [           main] o.s.s.petclinic.PetClinicApplication     : Started PetClinicApplication in 6.041 seconds (JVM running for 6.496)
+[33mwebapp_1  |[0m 2022-03-07 20:25:47.994  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[33mwebapp_1  |[0m 2022-03-07 20:25:47.994  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+[33mwebapp_1  |[0m 2022-03-07 20:25:48.002  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+Gracefully stopping... (press Ctrl+C again to force)
